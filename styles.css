@@ -1,0 +1,34 @@
+*{
+    border-radius: 35px;
+}
+body{
+    display: flex;
+    align-items: center; justify-content: center;
+    width: 97vw; height: 97vh;
+}
+#case{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px; width: 500px;
+    background-color: grey; 
+}
+.screen{
+    height: 120px; width: 450px;
+    border: solid 3px rgb(105, 105, 105);
+    background-color: rgb(206, 185, 0);
+    margin-top: 70px
+}
+.keyboard{
+    display: flex;
+    flex-wrap: wrap;
+    margin:20px;
+}
+.button{
+    display: flex;
+    justify-content: center; align-items: center;
+    font-size: 60px;
+    color: white;
+    background-color: black;
+    height: 100px; width: 100px;
+}
